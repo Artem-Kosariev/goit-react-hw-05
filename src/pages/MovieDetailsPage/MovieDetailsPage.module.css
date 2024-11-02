@@ -1,0 +1,77 @@
+.wrapper {
+  margin-top: 50px;
+}
+
+.btnBack {
+  width: 90px;
+  padding: 4px;
+  border-radius: 16px;
+  border: 1px solid rgb(14, 10, 243);
+  background-color: rgb(14, 10, 243);
+  color: white;
+}
+.navList {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+.link {
+  color: rgb(196, 205, 219);
+  text-decoration: none;
+  border-radius: 16px;
+  outline: none;
+}
+
+.link:hover,
+.link:focus {
+  color: rgb(14, 10, 243);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  padding: 4px;
+  border-radius: 16px;
+  border: 1px solid rgb(14, 10, 243);
+  background-color: rgb(14, 10, 243);
+  color: white;
+}
+
+.movieDetails {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: rgb(90, 89, 88);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+}
+
+.overview {
+  margin-bottom: 60px;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  column-gap: 40px;
+  color: white;
+  margin-bottom: 10px;
+}

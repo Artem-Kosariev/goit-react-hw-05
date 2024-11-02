@@ -1,0 +1,10 @@
+.title {
+  text-align: center;
+  font-size: 40px;
+}
+.error {
+  color: rgb(231, 81, 27);
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}

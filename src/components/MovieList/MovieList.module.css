@@ -1,0 +1,30 @@
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  column-gap: 20px;
+  margin-top: 40px;
+}
+
+.movie {
+  width: 300px;
+  margin-bottom: 40px;
+}
+.moviePoster {
+  width: 300px;
+}
+
+.title {
+  color: rgb(190, 203, 206);
+  border-top: none;
+  align-content: center;
+  text-align: center;
+  padding: 5px;
+  min-height: 58px;
+}
+
+.movieTitle {
+  font-size: 20px;
+  color: white;
+}

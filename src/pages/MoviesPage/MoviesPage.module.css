@@ -1,0 +1,16 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+.btnUpBox {
+  display: flex;
+  justify-content: right;
+}
+.error {
+  color: rgb(231, 81, 27);
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
