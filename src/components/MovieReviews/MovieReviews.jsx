@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { fetchMovieReview } from '../../movies-api';
+import { fetchMovieReview } from '../../api/movies-api';
 import { useParams } from 'react-router-dom';
 import css from './MovieReviews.module.css';
 import Loader from '../Loader/Loader';

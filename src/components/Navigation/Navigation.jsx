@@ -4,11 +4,11 @@ import css from "./Navigation.module.css";
 
 const Navigation = () => {
   const makeClassLink = ({ isActive }) => {
-    return clsx(css.navLink, isActive && css.active);
+    return clsx(css.navLink, { [css.active]: isActive });
   };
 
   return (
-    <div className={css.wrapper}>
+    <header className={css.wrapper}>
       <nav className={css.nav}>
         <ul className={css.navList}>
           <li>
@@ -23,7 +23,7 @@ const Navigation = () => {
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 };
 

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import MovieList from '../../components/MovieList/MovieList';
 import css from './HomePage.module.css';
-import { fetchTrendMovies } from '../../movies-api';
+import { fetchTrendMovies } from '../../api/movies-api';
 import Loader from '../../components/Loader/Loader';
 
 const Error = ({ errorType }) => {

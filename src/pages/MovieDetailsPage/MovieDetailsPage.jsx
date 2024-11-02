@@ -1,6 +1,6 @@
 import { NavLink, Outlet, useLocation, useParams, useNavigate } from 'react-router-dom';
 import css from './MovieDetailsPage.module.css'; 
-import { fetchMovieDetails } from '../../movies-api';
+import { fetchMovieDetails } from '../../api/movies-api';
 import Loader from '../../components/Loader/Loader';
 import { Suspense, useEffect, useState } from 'react';
 

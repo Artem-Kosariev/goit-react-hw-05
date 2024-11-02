@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import MovieList from '../../components/MovieList/MovieList';
 import SearchForm from '../../components/SearchForm/SearchForm';
 import css from './MoviesPage.module.css';
-import { fetchSearchMovie } from '../../movies-api';
+import { fetchSearchMovie } from '../../api/movies-api';
 import Loader from '../../components/Loader/Loader';
 import { useSearchParams } from 'react-router-dom';
 
